@@ -10,7 +10,7 @@ def connect(dbName):
 
 
 '''
-inserts the 25 pois from Ivan's dataset
+inserts the 25 pois from DBpedia dataset
 '''
 def insertNewPois(inFile):
     dataFile = open(inFile,"r")
@@ -28,7 +28,7 @@ def insertNewPois(inFile):
     dataFile.close()
 
 '''
-inserts the ~420 tracks by the ~140 musicians from Ivan's dataset
+inserts the ~420 tracks by the ~140 musicians from DBpedia dataset
 '''
 def insertNewTracks(dataDir):
     conn = connect('eval')
@@ -81,7 +81,7 @@ def checkForTags(itemName):
     return foundTags
 
 '''
-check precision of DBPedia algorithms
+check precision of DBpedia algorithms
 '''
 def checkDBPediaAlgorithm(algorithm):
     hits = 0
