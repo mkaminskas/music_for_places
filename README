@@ -4,4 +4,4 @@ To determine which approach produces music recommendations most appreciated by t
 
 During each evaluation step, the music recommendations for a POI are selected using the proposed five approaches: a personalized baseline approach and four context-aware approaches. The order of the recommendations is randomized, and the user is not aware of the algorithms that are used to generate the recommendations. In total, a maximum of five tracks corresponding to the top-ranked tracks given by each approach are suggested for each POI, but sometimes less tracks are shown as the tracks selected by the different approaches may overlap.
 
-Note that the implementation of the recommendation algorithms is not included in the project. The ranked lists of recommendations for each approach are stored in a MySQL database.
+Note that the implementation of the recommendation algorithms is not implemented in Java. Instead, the ranked lists of recommendations for each approach are loaded using Python scripts and stored in a MySQL database. The Python scripts are availble in the /scripts directory.
