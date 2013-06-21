@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+* {
+   font-size: 11px;
+   line-height: 16px;
+   font-family: Verdana;
+}
+
+a {
+   color: #696969;
+   text-decoration: none;
+   font-size: 11px;
+}
+
+a:hover {
+   color: #000000;
+   text-decoration: none;
+}
+
+input[type="text"], input[type="password"] {
+    width: 175px;
+}
+
+
+
